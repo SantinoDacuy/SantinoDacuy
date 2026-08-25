@@ -1,0 +1,58 @@
+name: Generate GitHub Stats Cards
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # Every 12 hours
+  workflow_dispatch:          # Manual trigger
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # Generate GitHub Stats card
+      - name: Generate Stats Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: SantinoDacuy
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: America/Argentina/Buenos_Aires
+          config_display: large
+          config_output: svg
+
+      # Generate Languages card
+      - name: Generate Languages Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: profile/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: SantinoDacuy
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          config_timezone: America/Argentina/Buenos_Aires
+          config_display: large
+          config_output: svg
