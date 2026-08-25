@@ -1,8 +1,8 @@
-<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Terminal accent for Santino Dacuy</title>
-  <desc id="desc">A dark terminal-inspired panel with a teal and blue gradient, subtle grid, and code symbols.</desc>
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hello World presentation for Santino Dacuy</title>
+  <desc id="desc">A terminal-inspired presentation card for Santino Dacuy, systems analyst focused on backend, databases, and business intelligence.</desc>
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
       <stop stop-color="#071A22"/>
       <stop offset="0.5" stop-color="#0B2630"/>
       <stop offset="1" stop-color="#102B48"/>
@@ -20,20 +20,21 @@
     </filter>
   </defs>
 
-  <rect x="8" y="8" width="1184" height="134" rx="14" fill="url(#panel)" stroke="url(#edge)" stroke-opacity="0.8" filter="url(#shadow)"/>
-  <rect x="8" y="8" width="1184" height="134" rx="14" fill="url(#grid)"/>
+  <rect x="8" y="8" width="1184" height="174" rx="14" fill="url(#panel)" stroke="url(#edge)" stroke-opacity="0.8" filter="url(#shadow)"/>
+  <rect x="8" y="8" width="1184" height="174" rx="14" fill="url(#grid)"/>
   <path d="M30 48H1170" stroke="#70A5FD" stroke-opacity="0.18"/>
   <circle cx="34" cy="29" r="5" fill="#FF6B6B"/>
   <circle cx="52" cy="29" r="5" fill="#F2C94C"/>
   <circle cx="70" cy="29" r="5" fill="#38BDAE"/>
   <text x="98" y="34" fill="#8CA4B8" font-family="monospace" font-size="14">santino@portfolio:~</text>
-  <text x="42" y="91" fill="#38BDAE" font-family="monospace" font-size="28">&gt;</text>
-  <text x="76" y="91" fill="#E6EDF3" font-family="monospace" font-size="24">build. query. solve.</text>
-  <text x="76" y="119" fill="#8CA4B8" font-family="monospace" font-size="14">backend / data / systems</text>
-  <path d="M900 98L954 64L1006 98L1058 64L1112 98" stroke="#38BDAE" stroke-opacity="0.65" stroke-width="2"/>
-  <circle cx="900" cy="98" r="4" fill="#70A5FD"/>
-  <circle cx="954" cy="64" r="4" fill="#38BDAE"/>
-  <circle cx="1006" cy="98" r="4" fill="#70A5FD"/>
-  <circle cx="1058" cy="64" r="4" fill="#38BDAE"/>
-  <circle cx="1112" cy="98" r="4" fill="#70A5FD"/>
+  <text x="42" y="82" fill="#38BDAE" font-family="monospace" font-size="16">&gt; echo "Hello, World!"</text>
+  <text x="42" y="120" fill="#E6EDF3" font-family="monospace" font-size="34" font-weight="700">Santino Dacuy</text>
+  <text x="44" y="148" fill="#70A5FD" font-family="monospace" font-size="17">Analista en Sistemas de Informacion</text>
+  <text x="44" y="170" fill="#8CA4B8" font-family="monospace" font-size="14">Backend  /  Databases  /  Business Intelligence</text>
+  <path d="M900 120L954 86L1006 120L1058 86L1112 120" stroke="#38BDAE" stroke-opacity="0.65" stroke-width="2"/>
+  <circle cx="900" cy="120" r="4" fill="#70A5FD"/>
+  <circle cx="954" cy="86" r="4" fill="#38BDAE"/>
+  <circle cx="1006" cy="120" r="4" fill="#70A5FD"/>
+  <circle cx="1058" cy="86" r="4" fill="#38BDAE"/>
+  <circle cx="1112" cy="120" r="4" fill="#70A5FD"/>
 </svg>
