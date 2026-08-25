@@ -1,6 +1,10 @@
 <h1 align="center">Santino Dacuy</h1>
 
 <p align="center">
+  <img src="./profile-accent.svg" width="100%" alt="Terminal-inspired profile accent" />
+</p>
+
+<p align="center">
   <strong>Analista en Sistemas de Información</strong><br>
   Backend · Databases · Business Intelligence
 </p>
