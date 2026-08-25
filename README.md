@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile-accent.svg" width="100%" alt="Hello World, Santino Dacuy, Analista en Sistemas de Informacion, Backend, Databases, Business Intelligence" />
+  <img src="./profile-hero.svg" width="100%" alt="Hello World, Santino Dacuy, Analista en Sistemas de Informacion, Backend, Databases, Business Intelligence" />
 </p>
 
 <div align="center">
