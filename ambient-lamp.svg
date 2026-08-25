@@ -1,0 +1,36 @@
+<svg width="240" height="190" viewBox="0 0 240 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ambient desk lamp</title>
+  <desc id="desc">A small warm desk lamp illuminating the profile projects section.</desc>
+  <defs>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 72) rotate(90) scale(105 125)">
+      <stop stop-color="#F2C94C" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#F2C94C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="82" y1="38" x2="165" y2="93" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E7A1"/>
+      <stop offset="1" stop-color="#D6A72A"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="120" cy="82" rx="112" ry="88" fill="url(#halo)">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <path d="M120 73L34 169H208L120 73Z" fill="#F2C94C" fill-opacity="0.045">
+    <animate attributeName="fill-opacity" values="0.025;0.08;0.025" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M120 76V145" stroke="#B8C7D9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 145L81 173H159L120 145Z" fill="#102B48" stroke="#70A5FD" stroke-opacity="0.9" stroke-width="2"/>
+  <path d="M74 71L94 37H146L166 71H74Z" fill="url(#shade)" stroke="#FFF4BF" stroke-width="2"/>
+  <path d="M82 71H158" stroke="#FFF4BF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="75" r="7" fill="#FFF4BF" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M94 37L83 22M146 37L157 22" stroke="#70A5FD" stroke-opacity="0.65" stroke-width="2"/>
+  <circle cx="83" cy="22" r="3" fill="#38BDAE"/>
+  <circle cx="157" cy="22" r="3" fill="#38BDAE"/>
+  <text x="75" y="188" fill="#8CA4B8" font-family="monospace" font-size="12">ambient light</text>
+</svg>

@@ -16,10 +16,6 @@
       <stop stop-color="#70A5FD" stop-opacity="0.2"/>
       <stop offset="1" stop-color="#38BDAE" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="lampGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1045 125) rotate(90) scale(100 150)">
-      <stop stop-color="#F2C94C" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#F2C94C" stop-opacity="0"/>
-    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M32 0H0V32" stroke="#70A5FD" stroke-opacity="0.08"/>
     </pattern>
@@ -36,12 +32,6 @@
   <circle cx="1000" cy="112" r="160" fill="url(#glow)">
     <animate attributeName="opacity" values="0.7;1;0.7" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <ellipse cx="1045" cy="125" rx="150" ry="100" fill="url(#lampGlow)">
-    <animate attributeName="opacity" values="0.55;0.95;0.55" dur="4s" repeatCount="indefinite"/>
-  </ellipse>
-  <path d="M1055 116L780 202H1110L1055 116Z" fill="#F2C94C" fill-opacity="0.045">
-    <animate attributeName="fill-opacity" values="0.02;0.07;0.02" dur="4s" repeatCount="indefinite"/>
-  </path>
 
   <path d="M32 52H1168" stroke="#70A5FD" stroke-opacity="0.18"/>
   <circle cx="36" cy="30" r="5" fill="#FF6B6B"/>
@@ -63,14 +53,11 @@
 
   <text x="848" y="94" fill="#8CA4B8" font-family="monospace" font-size="13">SELECT * FROM skills;</text>
   <text x="848" y="118" fill="#38BDAE" font-family="monospace" font-size="13">3 focus areas</text>
-  <path d="M1110 79L1075 111" stroke="#B8C7D9" stroke-width="5" stroke-linecap="round"/>
-  <path d="M1110 79L1140 57" stroke="#B8C7D9" stroke-width="5" stroke-linecap="round"/>
-  <path d="M1060 105L1080 78L1142 78L1158 105H1060Z" fill="#F2C94C" fill-opacity="0.9" stroke="#FFF4BF" stroke-width="2"/>
-  <path d="M1067 105H1151" stroke="#FFF4BF" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="1108" cy="108" r="6" fill="#FFF4BF">
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.5s" repeatCount="indefinite"/>
+  <path d="M1025 151L1042 168L1025 185M1080 151L1063 168L1080 185" stroke="#70A5FD" stroke-opacity="0.75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1055 146L1049 190" stroke="#38BDAE" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1055" cy="168" r="26" stroke="#38BDAE" stroke-opacity="0.18" stroke-width="2">
+    <animate attributeName="r" values="22;30;22" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5s" repeatCount="indefinite"/>
   </circle>
-  <path d="M1110 111V183" stroke="#B8C7D9" stroke-width="4" stroke-linecap="round"/>
-  <path d="M1110 183L1074 218H1146L1110 183Z" fill="#102B48" stroke="#70A5FD" stroke-opacity="0.85" stroke-width="2"/>
-  <text x="1008" y="242" fill="#F2C94C" font-family="monospace" font-size="12">focus_light = on</text>
+  <text x="1000" y="218" fill="#8CA4B8" font-family="monospace" font-size="12">code_mode = on</text>
 </svg>

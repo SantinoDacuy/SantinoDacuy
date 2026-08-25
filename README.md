@@ -42,6 +42,10 @@ Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Lic
 - 🧠 **IA & Machine Learning** — Red Neuronal ART1 para clasificación
 - 📊 **+1M registros** procesados y saneados en proyectos de BI
 
+<p align="right">
+  <img src="./ambient-lamp.svg" width="180" alt="Ambient desk lamp illuminating the projects section" />
+</p>
+
 ---
 
 ## `> ls ~/projects --featured`
