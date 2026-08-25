@@ -12,11 +12,11 @@
 
 <br>
 
-<img src="https://avatars.githubusercontent.com/u/SantinoDacuy?v=4" width="130" style="border-radius:50%;border:3px solid #58a6ff;" alt="Santino Dacuy" />
+<img src="https://github.com/SantinoDacuy.png" width="130" style="border-radius:50%;" alt="Santino Dacuy" />
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=%24+psql+-U+santino+-d+portfolio;Connecting+to+database...+%E2%9C%93+OK;%3E+SELECT+%2A+FROM+developer+WHERE+open_to_work+%3D+true;Backend+%C2%B7+Databases+%C2%B7+Business+Intelligence" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=%24+psql+-U+santino+-d+portfolio;Connecting+to+database...+OK;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true;Backend+%7C+Databases+%7C+Business+Intelligence" alt="Typing SVG" />
 
 <br><br>
 
@@ -208,17 +208,17 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 <div align="center">
 
 <a href="https://github.com/SantinoDacuy">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=github_dark&bg_color=0d1117&border_color=30363d&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&hide_border=false&count_private=true" alt="Santino's GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Santino's GitHub Stats" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/SantinoDacuy">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=github_dark&bg_color=0d1117&border_color=30363d&title_color=58a6ff&text_color=c9d1d9&hide_border=false&langs_count=8" alt="Most Used Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most Used Languages" />
 </a>
 
 <br><br>
 
-<a href="https://github.com/SantinoDacuy">
-  <img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=github-dark-blue&background=0d1117&border=30363d&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak" />
+<a href="https://streak-stats.demolab.com?user=SantinoDacuy">
+  <img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </a>
 
 </div>
