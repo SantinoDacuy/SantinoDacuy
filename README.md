@@ -30,10 +30,6 @@ SELECT rol, estudios, foco, estado
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                         🧑‍💻 SOBRE MÍ                              -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
 ## `> whoami`
 
 Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Licenciatura en Sistemas de Información (4to año, última etapa).
@@ -47,10 +43,6 @@ Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Lic
 - 📊 **+1M registros** procesados y saneados en proyectos de BI
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                     🚀 PROYECTOS DESTACADOS                       -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `> ls ~/projects --featured`
 
@@ -120,16 +112,12 @@ Sistema completo de BI y Data Warehousing — materia *Bases de Datos Avanzada*.
 </tr>
 </table>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                      📦 OTROS PROYECTOS                           -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
 ## `> ls ~/projects --all`
 
+<table>
 <tr>
-  <img src="https://img.shields.io/github/repos/SantinoDacuy?style=flat-square&label=public%20repos" alt="Public repositories" />&nbsp;
-  <img src="https://img.shields.io/github/followers/SantinoDacuy?style=flat-square&label=followers" alt="Followers" />&nbsp;
-  <img src="https://img.shields.io/github/stars/SantinoDacuy?style=flat-square&label=total%20stars" alt="Total stars" />
+<td width="50%" valign="top">
+
 ### ✈️ [TP6-Airports-BDDNsql](https://github.com/SantinoDacuy/TP6-Airports-BDDNsql)
 
 API full-stack para consulta y tracking de aeropuertos.
@@ -187,10 +175,6 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                       🛠️ STACK TÉCNICO                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
 ## `> cat ~/.stack`
 
 <div align="center">
@@ -240,10 +224,6 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                       📈 ESTADÍSTICAS                             -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
 ## `> github_stats`
 
 <div align="center">
@@ -256,7 +236,6 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 </div>
 
-<!-- Snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" />
@@ -264,10 +243,6 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 </picture>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                         📬 CONTACTO                               -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `> contact`
 
