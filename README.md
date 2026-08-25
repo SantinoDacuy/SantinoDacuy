@@ -1,12 +1,3 @@
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                    🎯 HERO BANNER SECTION                         -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<p align="center">
-  <img src="./banner.jpeg" width="100%" height="180" style="max-height:180px; object-fit:cover; object-position:center;" alt="Santino Dacuy — Creative Developer | Build. Create. Solve." />
-</p>
-
-<!-- Badges rápidos -->
 <p align="center">
   <a href="https://www.linkedin.com/in/santino-dacuy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:santinodacuy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
@@ -14,19 +5,11 @@
   <img src="https://img.shields.io/badge/📍_Concepción_del_Uruguay,_ARG-1a1b27?style=for-the-badge" alt="Location" />
 </p>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                   💻 TYPING SVG + SQL INTRO                       -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1200&color=70A5FD&center=true&vCenter=true&width=600&lines=%24+psql+-U+santino+-d+portfolio;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true%3B;Backend+%C2%B7+Databases+%C2%B7+Business+Intelligence" alt="Typing SVG" />
 </div>
 
 <br>
-
-<p align="center">
-  <img src="./perfi_foto.png" width="120" height="120" style="border-radius:50%;" alt="Santino Dacuy" />
-</p>
 
 ```sql
 SELECT rol, estudios, foco, estado
@@ -41,7 +24,7 @@ SELECT rol, estudios, foco, estado
 | **foco** | Backend · Databases · Business Intelligence |
 | **estado** | 🟢 Open to work — buscando primer rol profesional |
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                         🧑‍💻 SOBRE MÍ                              -->
@@ -63,7 +46,7 @@ Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Lic
 
 <br clear="right" />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                     🚀 PROYECTOS DESTACADOS                       -->
@@ -202,7 +185,7 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                       🛠️ STACK TÉCNICO                            -->
@@ -255,7 +238,7 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                       📈 ESTADÍSTICAS                             -->
@@ -290,7 +273,7 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
   <img alt="Snake animation" src="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                         📬 CONTACTO                               -->
@@ -317,6 +300,3 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 </div>
 
 <br>
-
-<!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f2942,70:1a3a5c,100:1f4e79&height=120&section=footer" width="100%" />
