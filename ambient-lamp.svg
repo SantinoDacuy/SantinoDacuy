@@ -20,7 +20,6 @@
   </ellipse>
   <path d="M120 73L34 169H208L120 73Z" fill="#F2C94C" fill-opacity="0.045">
     <animate attributeName="fill-opacity" values="0.025;0.05;0.035;0.025" dur="8s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="rotate" values="0 120 73;-4 120 73;0 120 73;3 120 73;0 120 73" dur="8s" repeatCount="indefinite"/>
   </path>
 
   <g fill="#FFF4BF">
@@ -55,12 +54,9 @@
 
   <path d="M88 68L151 68" stroke="#FFF4BF" stroke-width="3" stroke-linecap="round" stroke-opacity="0">
     <animate attributeName="stroke-opacity" values="0;0.5;0" dur="6s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="-8 0;8 0;-8 0" dur="6s" repeatCount="indefinite"/>
   </path>
 
   <g id="lamp-head" transform="translate(0 0) rotate(0 120 145)">
-    <animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0;0 -2;0 0" dur="8s" repeatCount="indefinite" additive="sum"/>
-    <animateTransform attributeName="transform" type="rotate" values="0 120 145;-7 120 145;0 120 145;4 120 145;0 120 145" dur="8s" repeatCount="indefinite" additive="sum"/>
   <path d="M120 76V145" stroke="#B8C7D9" stroke-width="5" stroke-linecap="round"/>
   <path d="M120 145L81 173H159L120 145Z" fill="#102B48" stroke="#70A5FD" stroke-opacity="0.9" stroke-width="2"/>
   <path d="M74 71L94 37H146L166 71H74Z" fill="url(#shade)" stroke="#FFF4BF" stroke-width="2"/>
