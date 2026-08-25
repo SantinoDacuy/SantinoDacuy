@@ -1,8 +1,8 @@
+<h1 align="center">Santino Dacuy</h1>
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/santino-dacuy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:santinodacuy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-  <img src="https://img.shields.io/badge/Open_to_Work-2ea44f?style=flat-square&logo=checkmarx&logoColor=white" alt="Open to Work" />&nbsp;
-  <img src="https://img.shields.io/badge/Concepcion_del_Uruguay%2C_ARG-1a1b27?style=flat-square" alt="Location" />
+  <strong>Analista en Sistemas de Información</strong><br>
+  Backend · Databases · Business Intelligence
 </p>
 
 <div align="center">
@@ -24,13 +24,20 @@ SELECT rol, estudios, foco, estado
 | **foco** | Backend · Databases · Business Intelligence |
 | **estado** | 🟢 Open to work — buscando primer rol profesional |
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/santino-dacuy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:santinodacuy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
+  <img src="https://img.shields.io/badge/Open_to_Work-2ea44f?style=flat-square&logo=checkmarx&logoColor=white" alt="Open to Work" />&nbsp;
+  <img src="https://img.shields.io/badge/Concepcion_del_Uruguay%2C_ARG-1a1b27?style=flat-square" alt="Location" />
+</p>
+
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                         🧑‍💻 SOBRE MÍ                              -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> whoami`
+## `> whoami`
 
 Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Licenciatura en Sistemas de Información (4to año, última etapa).
 
@@ -48,7 +55,7 @@ Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Lic
 <!--                     🚀 PROYECTOS DESTACADOS                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> ls ~/projects --featured`
+## `> ls ~/projects --featured`
 
 <table>
 <tr>
@@ -120,7 +127,7 @@ Sistema completo de BI y Data Warehousing — materia *Bases de Datos Avanzada*.
 <!--                      📦 OTROS PROYECTOS                           -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> ls ~/projects --all`
+## `> ls ~/projects --all`
 
 <tr>
   <img src="https://img.shields.io/github/repos/SantinoDacuy?style=flat-square&label=public%20repos" alt="Public repositories" />&nbsp;
@@ -187,7 +194,7 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 <!--                       🛠️ STACK TÉCNICO                            -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> cat ~/.stack`
+## `> cat ~/.stack`
 
 <div align="center">
 
@@ -240,7 +247,7 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 <!--                       📈 ESTADÍSTICAS                             -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> SELECT * FROM github_stats;`
+## `> github_stats`
 
 <div align="center">
 
@@ -265,16 +272,10 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 <!--                         📬 CONTACTO                               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## &nbsp;`> echo $CONTACT_INFO`
+## `> contact`
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/santino-dacuy">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>&nbsp;&nbsp;
-<a href="mailto:santinodacuy@gmail.com">
-  <img src="https://img.shields.io/badge/santinodacuy%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-</a>&nbsp;&nbsp;
 <a href="https://github.com/SantinoDacuy">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </a>
