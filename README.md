@@ -2,59 +2,66 @@
 <!--                        HEADER ANIMADO                             -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f2942,70:1a3a5c,100:1f4e79&height=240&section=header&text=Santino%20Dacuy&fontSize=48&fontColor=e6f1ff&animation=fadeIn&fontAlignY=36&desc=Analista%20en%20Sistemas%20de%20Información%20%7C%20Backend%20·%20Bases%20de%20Datos%20·%20BI&descSize=17&descColor=7eb8f7&descAlignY=56" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f2942,70:1a3a5c,100:1f4e79&height=220&section=header&text=Santino%20Dacuy&fontSize=48&fontColor=e6f1ff&animation=fadeIn&fontAlignY=36&desc=Analista%20en%20Sistemas%20de%20Información%20%7C%20Backend%20·%20Bases%20de%20Datos%20·%20BI&descSize=17&descColor=7eb8f7&descAlignY=56" width="100%" />
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                      INTRO: AVATAR + SQL                          -->
+<!--               INTRO: AVATAR CON CARD + SQL CARD                   -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
 
 <br>
 
-<img src="https://github.com/SantinoDacuy.png" width="130" style="border-radius:50%;" alt="Santino Dacuy" />
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=%24+psql+-U+santino+-d+portfolio;Connecting+to+database...+OK;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true;Backend+%7C+Databases+%7C+Business+Intelligence" alt="Typing SVG" />
-
-<br><br>
-
-</div>
-
-<!-- SQL CARD CENTRADO -->
 <div align="center">
 
+<!-- Avatar card con foto circular y badges de estado -->
+<table border="0" cellpadding="12" cellspacing="0" align="center">
+  <tr>
+    <td align="center">
+      <img src="https://avatars.githubusercontent.com/SantinoDacuy"
+           width="150" height="150"
+           style="border-radius:50%;border:3px solid #1f6feb;"
+           alt="Santino Dacuy" />
+      <br><br>
+      <img src="https://img.shields.io/badge/Open_to_Work-2ea44f?style=flat-square&logo=checkmarx&logoColor=white" alt="Open to Work" />
+      &nbsp;
+      <img src="https://img.shields.io/badge/Concepción_del_Uruguay_·_Argentina-1f6feb?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- Typing SVG -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=%24+psql+-U+santino+-d+portfolio;Connecting...+OK;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true;Backend+%7C+Databases+%7C+Business+Intelligence" alt="Typing SVG" />
+
+<br><br>
+
+<!-- SQL + tabla Markdown (se adapta a cualquier resolución) -->
+
 ```sql
-SELECT rol, estudios, foco, ubicacion, estado
+SELECT rol, estudios, foco, estado
   FROM developer
  WHERE username = 'SantinoDacuy';
 ```
 
-```
- campo      │ valor
-────────────┼──────────────────────────────────────────────────
- rol        │ Analista en Sistemas de Información
- estudios   │ Lic. en Sistemas de Información — 4to año (UADER)
- graduación │ Mayo 2026
- foco       │ Backend · Databases · Business Intelligence
- ubicación  │ Concepción del Uruguay, Entre Ríos
- estado     │ ● Open to work — buscando primer rol profesional
-────────────┴──────────────────────────────────────────────────
-(1 row)  ·  0.003ms  ·  conexión: portfolio_db@localhost:5432
-```
+| Campo | Valor |
+|:---|:---|
+| **rol** | Analista en Sistemas de Información |
+| **estudios** | Lic. en Sistemas de Información — 4to año (UADER) |
+| **graduación** | Mayo 2026 |
+| **foco** | Backend · Databases · Business Intelligence |
+| **estado** | ● Open to work — buscando primer rol profesional |
 
 </div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                         SOBRE MÍ                                  -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
 ## &nbsp; Sobre mí
 
-Analista en Sistemas de Información (UADER) y estudiante avanzado de la **Licenciatura en Sistemas de Información** (4to año, última etapa). Perfil de desarrollo **full-stack con foco en backend y bases de datos**: construí una plataforma de e-commerce de cero con integración de pagos (Mercado Pago), CMS headless (Strapi) y autenticación OAuth. A eso se suma experiencia práctica en bases relacionales, NoSQL y distribuidas, y un proyecto de **Business Intelligence y Data Warehousing** en el que detecté y corregí errores de integridad con impacto directo sobre el análisis. Busco mi primera oportunidad profesional en sistemas para aportar esta base sólida y seguir creciendo técnicamente.
+Analista en Sistemas de Información (UADER) y estudiante avanzado de la **Licenciatura en Sistemas de Información** (4to año, última etapa). Perfil full-stack con foco en **backend y bases de datos**: construí una plataforma de e-commerce de cero con integración de pagos (Mercado Pago), CMS headless (Strapi) y autenticación OAuth. A eso se suma experiencia en bases relacionales, NoSQL y distribuidas, y un proyecto de **Business Intelligence y Data Warehousing** en el que detecté y corregí errores de integridad con impacto medible sobre el análisis. Busco mi primera oportunidad profesional en sistemas para aportar esta base sólida y seguir creciendo técnicamente.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -73,8 +80,8 @@ Analista en Sistemas de Información (UADER) y estudiante avanzado de la **Licen
 Plataforma de venta online construida de cero para digitalizar un negocio de mates artesanales.
 
 ```
-Frontend  → React (Router v6), historial de 
-            compras, deep linking, scroll 
+Frontend  → React (Router v6), historial de
+            compras, deep linking, scroll
             automático, estados con colores
 Backend   → Node.js / Express sobre PostgreSQL
             modelo relacional normalizado,
@@ -147,7 +154,7 @@ Red Neuronal ART1 para clasificación de frutas.
 - Trabajo final integrador de Redes Neuronales / IA
 - Supervisado por la **Dra. Daniela López De Luise**
 - Líder técnico de un grupo de 5 integrantes
-- Coautor de la propuesta formal con alcances y limitaciones definidos
+- Propuesta formal con alcances y limitaciones definidos
 
 </td>
 </tr>
@@ -207,33 +214,13 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 <div align="center">
 
-<a href="https://github.com/SantinoDacuy">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Santino's GitHub Stats" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/SantinoDacuy">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Most Used Languages" />
-</a>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117" alt="Santino's GitHub Stats" />
+&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1117" alt="Most Used Languages" />
 
 <br><br>
 
-<a href="https://streak-stats.demolab.com?user=SantinoDacuy">
-  <img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</a>
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                   SNAKE DE CONTRIBUCIONES                         -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" />
-</picture>
+<img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
 
 </div>
 
