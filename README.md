@@ -1,30 +1,37 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                    🎯 COMPACT HEADER + TYPING                     -->
+<!--                    🎯 HERO BANNER SECTION                         -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:0f2942,50:1a3a5c,75:1f4e79,100:2563eb&height=200&section=header&text=Santino%20Dacuy&fontSize=44&fontColor=e6f1ff&animation=fadeIn&fontAlignY=34&desc=Analista%20en%20Sistemas%20%7C%20Backend%20%C2%B7%20Databases%20%C2%B7%20BI&descSize=16&descColor=70a5fd&descAlignY=54" width="100%" />
+<p align="center">
+  <img src="./banner.jpeg" width="100%" height="180" style="max-height:180px; object-fit:cover; object-position:center;" alt="Santino Dacuy — Creative Developer | Build. Create. Solve." />
+</p>
 
-<!-- Badges rápidos — primer vistazo -->
+<!-- Badges rápidos -->
 <p align="center">
   <a href="https://www.linkedin.com/in/santino-dacuy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="mailto:santinodacuy@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-  <img src="https://img.shields.io/badge/🟢_Open_to_Work-2ea44f?style=for-the-badge" alt="Open to Work" />&nbsp;
+  <img src="https://img.shields.io/badge/Open_to_Work-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Open to Work" />&nbsp;
   <img src="https://img.shields.io/badge/📍_Concepción_del_Uruguay,_ARG-1a1b27?style=for-the-badge" alt="Location" />
 </p>
 
-<!-- Typing SVG compacto -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2800&pause=1200&color=70A5FD&center=true&vCenter=true&width=520&lines=%24+psql+-U+santino+-d+portfolio;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true%3B;Backend+%C2%B7+Databases+%C2%B7+Business+Intelligence" alt="Typing SVG" />
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!--                   💻 SQL CARD — COMPACTA                          -->
+<!--                   💻 TYPING SVG + SQL INTRO                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1200&color=70A5FD&center=true&vCenter=true&width=600&lines=%24+psql+-U+santino+-d+portfolio;SELECT+*+FROM+developer+WHERE+open_to_work+%3D+true%3B;Backend+%C2%B7+Databases+%C2%B7+Business+Intelligence" alt="Typing SVG" />
+</div>
+
+<br>
+
+<p align="center">
+  <img src="./perfi_foto.png" width="120" height="120" style="border-radius:50%;" alt="Santino Dacuy" />
+</p>
 
 ```sql
-SELECT rol, estudios, foco, estado FROM developer WHERE username = 'SantinoDacuy';
+SELECT rol, estudios, foco, estado
+  FROM developer
+ WHERE username = 'SantinoDacuy';
 ```
 
 | Campo | Valor |
@@ -34,8 +41,6 @@ SELECT rol, estudios, foco, estado FROM developer WHERE username = 'SantinoDacuy
 | **foco** | Backend · Databases · Business Intelligence |
 | **estado** | 🟢 Open to work — buscando primer rol profesional |
 
-</div>
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
@@ -44,13 +49,19 @@ SELECT rol, estudios, foco, estado FROM developer WHERE username = 'SantinoDacuy
 
 ## &nbsp;`> whoami`
 
-Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Licenciatura en Sistemas de Información (4to año, última etapa). Perfil full-stack con foco en **backend y datos**:
+<img align="right" src="https://github-readme-activity-graph.vercel.app/graph?username=SantinoDacuy&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&area_color=1a1b27&hide_border=true" width="45%" alt="Activity Graph" />
+
+Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Licenciatura en Sistemas de Información (4to año, última etapa).
+
+**Perfil full-stack con foco en backend y datos:**
 
 - 🛒 **E-commerce de cero** — Integración Mercado Pago + OAuth + CMS headless
 - 🗄️ **Data Warehouse & BI** — Esquema estrella, ETL, dashboards en Tableau
 - 🌐 **Bases distribuidas** — Replicación lógica maestro/esclavos en PostgreSQL
 - 🧠 **IA & Machine Learning** — Red Neuronal ART1 para clasificación
 - 📊 **+1M registros** procesados y saneados en proyectos de BI
+
+<br clear="right" />
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -64,7 +75,7 @@ Analista en Sistemas de Información (**UADER**) y estudiante avanzado de la Lic
 <tr>
 <td width="50%" valign="top">
 
-### 🧉 Mate Único — E-commerce
+### <img src="https://img.shields.io/badge/🧉-E--commerce-1a1b27?style=flat-square" /> Mate Único
 
 Plataforma de venta online construida de cero para digitalizar un negocio de mates artesanales.
 
@@ -73,20 +84,28 @@ Plataforma de venta online construida de cero para digitalizar un negocio de mat
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat-square&logo=strapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Mercado_Pago-009EE3?style=flat-square&logo=mercadopago&logoColor=white" />
-  <img src="https://img.shields.io/badge/OAuth-4285F4?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
 </p>
 
-- Frontend con Router v6, historial de compras, deep linking
-- Backend REST con modelo relacional normalizado y triggers
-- CMS headless + pagos online + autenticación social
+```
+Frontend  → React (Router v6), historial de
+            compras, deep linking, scroll
+            automático, estados con colores
+Backend   → Node.js / Express sobre PostgreSQL
+            modelo relacional normalizado,
+            triggers, documentado en UML
+```
+
+<p>
+  <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=flat-square&logo=strapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mercado_Pago-009EE3?style=flat-square&logo=mercadopago&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_OAuth-4285F4?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 Retail Vision — DW & BI
+### <img src="https://img.shields.io/badge/📊-Data_Warehouse_&_BI-1a1b27?style=flat-square" /> Retail Vision
 
 Sistema completo de BI y Data Warehousing — materia *Bases de Datos Avanzada*.
 
@@ -102,9 +121,15 @@ Sistema completo de BI y Data Warehousing — materia *Bases de Datos Avanzada*.
 | **ETL** | Staging + DDL/DML en PostgreSQL |
 | **Viz** | Dashboards interactivos en Tableau |
 
+**Hallazgos técnicos:**
+
 ```diff
-- CROSS JOIN: 1.000 → 1.000.000 filas → corregido
-- Dataset: 90% fallas integridad → saneado
+- CROSS JOIN: 1.000 → 1.000.000 de filas
++ Corregido con joins explícitos
+
+- Dataset: 90% de fallas de integridad
++ Dataset saneado antes de carga al DW
+
 ~ Correlación gasto declarado vs real: ~0.04
 ```
 
@@ -129,14 +154,18 @@ API full-stack para consulta y tracking de aeropuertos.
 <p>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" />
 </p>
 
-- MongoDB + Redis (GEO + ranking con TTL)
-- Mapa interactivo con clusters
-- Entorno orquestado con Docker Compose
+```
+MongoDB          → Base de datos principal
+Redis (geo)      → Consultas geográficas (GEO)
+Redis (rank)     → Popularidad con TTL
+Node.js/Express  → Backend REST
+Leaflet.js       → Mapa interactivo con clusters
+Docker Compose   → Orquestación del entorno
+```
 
 </td>
 <td width="50%" valign="top">
@@ -153,7 +182,7 @@ Red Neuronal ART1 para clasificación de frutas.
 - Trabajo final integrador de **Redes Neuronales / IA**
 - Supervisado por la **Dra. Daniela López De Luise**
 - **Líder técnico** de un grupo de 5 integrantes
-- Propuesta formal con alcances y limitaciones
+- Propuesta formal con alcances y limitaciones definidos
 
 </td>
 </tr>
@@ -183,44 +212,44 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 <div align="center">
 
-**Lenguajes & Frameworks**
+#### Lenguajes & Frameworks
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />&nbsp;
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />&nbsp;
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />&nbsp;
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />&nbsp;
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />&nbsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />&nbsp;
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 </p>
 
-**Bases de datos & Infraestructura**
+#### Bases de datos & Infraestructura
 
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />&nbsp;
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />&nbsp;
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />&nbsp;
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
 </p>
 
-**Herramientas & Visualización**
+#### Herramientas & Visualización
 
 <p>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/pgAdmin-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgAdmin" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />&nbsp;
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />&nbsp;
+  <img src="https://img.shields.io/badge/pgAdmin-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgAdmin" />&nbsp;
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />&nbsp;
   <img src="https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet.js" />
 </p>
 
-**Integraciones & APIs**
+#### Integraciones & APIs
 
 <p>
-  <img src="https://img.shields.io/badge/Mercado%20Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white" alt="Mercado Pago" />
-  <img src="https://img.shields.io/badge/Google%20OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google OAuth" />
-  <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=strapi&logoColor=white" alt="Strapi" />
+  <img src="https://img.shields.io/badge/Mercado%20Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white" alt="Mercado Pago" />&nbsp;
+  <img src="https://img.shields.io/badge/Google%20OAuth-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google OAuth" />&nbsp;
+  <img src="https://img.shields.io/badge/Strapi-2F2E8B?style=for-the-badge&logo=strapi&logoColor=white" alt="Strapi" />&nbsp;
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
 </p>
 
@@ -234,31 +263,32 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 
 ## &nbsp;`> SELECT * FROM github_stats;`
 
-<!-- Stats + Languages lado a lado -->
+<div align="center">
+
+<!-- GitHub Stats + Top Languages side by side -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&ring_color=70a5fd" height="170" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0d1117&title_color=70a5fd&text_color=38bdae" height="170" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SantinoDacuy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&ring_color=70a5fd" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantinoDacuy&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&bg_color=0d1117&title_color=70a5fd&text_color=38bdae" width="48%" alt="Top Languages" />
 </p>
 
-<!-- Streak -->
+<!-- GitHub Streak -->
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=tokyonight&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=70A5FD&dates=38BDAE" height="170" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=SantinoDacuy&theme=tokyonight&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=70A5FD&dates=38BDAE" width="60%" alt="GitHub Streak" />
 </p>
 
-<!-- Trophies -->
+<!-- GitHub Trophies -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SantinoDacuy&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="80%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SantinoDacuy&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" width="90%" alt="GitHub Trophies" />
 </p>
+
+</div>
 
 <!-- Snake animation -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/SantinoDacuy/SantinoDacuy/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -289,4 +319,4 @@ Implementación de **replicación lógica maestro/esclavos** sobre tres nodos si
 <br>
 
 <!-- FOOTER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,25:1f4e79,50:1a3a5c,75:0f2942,100:0d1117&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f2942,70:1a3a5c,100:1f4e79&height=120&section=footer" width="100%" />
